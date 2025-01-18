@@ -12,12 +12,11 @@ alias bat="bat --style=header,numbers"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
-	 git
-	 zsh-autosuggestions
+	git
+	zsh-autosuggestions
 	docker
-docker-compose
-extract
-thefuck	 
+	docker-compose
+	extract
 	)
 
 source $ZSH/oh-my-zsh.sh
